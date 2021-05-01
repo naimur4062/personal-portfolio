@@ -8,7 +8,7 @@ const SideBar = () => {
     return (
         <div style={{ backgroundColor: '#000080' }}>
             <Navbar collapseOnSelect expand="lg">
-                <div className="container">
+                <div className="container mt-4">
                     <Navbar.Toggle aria-controls="responsive-navbar-nav" />
                     <Navbar.Collapse id="responsive-navbar-nav">
                         <Nav className="d-flex flex-column ">
