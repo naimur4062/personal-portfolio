@@ -15,3 +15,6 @@
 .resume Button:hover{
     background-color: #FF6347;
 }
+.resume Button:focus{
+    background-color: #FF6347;
+}

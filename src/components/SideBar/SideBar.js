@@ -19,19 +19,19 @@ const SideBar = () => {
                                 <Link className="nav-link text-white" to="/home">
                                     HOME
                                 </Link>
-                                <Link className="nav-link text-white" to="/dashboard">
+                                <Link className="nav-link text-white" to="/about">
                                     ABOUT
                                 </Link>
-                                <Link className="nav-link text-white" to="">
+                                <Link className="nav-link text-white" to="/resume">
                                     RESUME
                                 </Link>
-                                <Link className="nav-link text-white" to="">
+                                <Link className="nav-link text-white" to="/portfolios">
                                     PORTFOLIOS
                                 </Link>
-                                <Link className="nav-link text-white" to="">
+                                <Link className="nav-link text-white" to="/blogs">
                                     BLOGS
                                 </Link>
-                                <Link className="nav-link text-white" to="">
+                                <Link className="nav-link text-white" to="/contact">
                                     CONTACT
                                 </Link>
                             </div>

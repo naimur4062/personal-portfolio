@@ -23,18 +23,20 @@ const Header = () => {
                     wrapper="h1"
                 />
                 <div className="resume">
-                    <Button>
-                        DOWNLOAD RESUME
-                    </Button>
+                    <a href="https://drive.google.com/file/d/1vtk_YtomvnDs4qhp9apiRIpuE8J5CE3c/view?usp=sharing" target="_blank">
+                        <Button>
+                            GET MY RESUME
+                        </Button>
+                    </a>
                 </div>
                 <div className="icon text-center mt-5">
-                    <a href="https://www.facebook.com/naimurrahman.abeer">
+                    <a href="https://www.facebook.com/naimurrahman.abeer" target="_blank">
                         <img src={facebook} alt="" />
                     </a>
-                    <a href="https://www.linkedin.com/in/naimur99">
+                    <a href="https://www.linkedin.com/in/naimur99" target="_blank">
                         <img src={linkedin} alt="" />
                     </a>
-                    <a href="https://github.com/naimur4062">
+                    <a href="https://github.com/naimur4062" target="_blank">
                         <img src={github} alt="" />
                     </a>
                 </div>
