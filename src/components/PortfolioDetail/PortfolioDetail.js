@@ -12,10 +12,10 @@ const PortfolioDetail = ({ portfolio }) => {
                     <img src={portfolio.img} alt="" />
                 </div>
                 <div className="link d-flex justify-content-center">
-                    <a target="_blank" href={portfolio.website}>
+                    <a target="_blank" href={portfolio.website} rel="noreferrer">
                         <img src={webLink} alt="" />
                     </a>
-                    <a target="_blank" href={portfolio.github}>
+                    <a target="_blank" href={portfolio.github} rel="noreferrer">
                         <img src={gitLink} alt="" />
                     </a>
                 </div>

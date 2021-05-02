@@ -7,7 +7,7 @@ import './Header.css';
 
 const Header = () => {
     return (
-        <div className="d-flex justify-content-center">
+        <div className="d-flex justify-content-center container">
             <div style={{ marginTop: '200px', marginBottom: '160px' }}>
                 <h1 className="text-white">Hello, I'm <span style={{ color: '#FF6347', fontWeight: '800' }}>Md Naimur Rahman</span></h1>
                 <Typical
