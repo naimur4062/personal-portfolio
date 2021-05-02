@@ -1,8 +1,6 @@
 import React from 'react';
 import { Nav, Navbar } from 'react-bootstrap';
 import { Link } from 'react-router-dom';
-import abir from '../../images/abir99.jpg';
-import './SideBar.css';
 
 const SideBar = () => {
     return (
