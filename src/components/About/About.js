@@ -4,12 +4,12 @@ import SideBar from '../SideBar/SideBar';
 
 const About = () => {
     return (
-        <div className="row">
-            <div className="col-md-2 text-center p-0">
+        <div>
+            <div className="text-center">
                 <SideBar />
             </div>
-            <div style={{ backgroundColor: '#191970' }} className="col-md-10">
-                <AboutDetail/>
+            <div className="d-flex justify-content-center" style={{ backgroundColor: '#191970'}}>
+                <AboutDetail />
             </div>
         </div>
     );

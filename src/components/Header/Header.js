@@ -9,7 +9,7 @@ import { Button } from 'react-bootstrap';
 const Header = () => {
     return (
         <div className="d-flex justify-content-center">
-            <div style={{ marginTop: '200px' }}>
+            <div style={{ marginTop: '200px', marginBottom: '160px' }}>
                 <h1 className="text-white">Hello, I'm <span style={{ color: '#FF6347', fontWeight: '800' }}>Md Naimur Rahman</span></h1>
                 <Typical
                     style={{ fontWeight: '900' }}
@@ -22,13 +22,6 @@ const Header = () => {
                     loop={Infinity}
                     wrapper="h1"
                 />
-                <div className="resume">
-                    <a href="https://drive.google.com/file/d/1vtk_YtomvnDs4qhp9apiRIpuE8J5CE3c/view?usp=sharing" target="_blank">
-                        <Button>
-                            GET MY RESUME
-                        </Button>
-                    </a>
-                </div>
                 <div className="icon text-center mt-5">
                     <a href="https://www.facebook.com/naimurrahman.abeer" target="_blank">
                         <img src={facebook} alt="" />
