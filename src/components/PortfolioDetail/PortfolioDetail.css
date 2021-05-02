@@ -21,3 +21,8 @@
 .link{
     height: 0px;
 }
+@media only screen and (max-width: 600px) {
+    .link a img{
+        right: 45px;
+    }
+}

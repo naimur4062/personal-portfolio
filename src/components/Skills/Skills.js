@@ -3,7 +3,7 @@ import './Skills.css';
 
 const Skills = () => {
     return (
-        <div className="container ms-5">
+        <div className="container">
             <h1 className="text-white mt-5">My Skills</h1>
             <div className="d-flex justify-content-start">
                 <div>

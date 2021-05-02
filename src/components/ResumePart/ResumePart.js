@@ -1,10 +1,11 @@
 import React from 'react';
+import './ResumePart.css';
 
 const ResumePart = () => {
     return (
         <div className="text-white">
             <h1>Resume</h1>
-            <div className="d-flex justify-content-evenly">
+            <div className="d-flex justify-content-evenly resumeSkill">
                 <div className="mt-3">
                     <h3 className="mb-4">Working Experience</h3>
                     <ul>

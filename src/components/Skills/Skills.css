@@ -4,3 +4,8 @@
 .familiar-tool-deploy{
     margin-left: 150px;
 }
+@media only screen and (max-width: 700px) {
+    .familiar-tool-deploy{
+        margin-left: 50px;
+    }
+}

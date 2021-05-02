@@ -18,3 +18,9 @@
 .resume Button:focus{
     background-color: #FF6347;
 }
+.abir img{
+    height: 200px;
+    border-radius: 30px;
+    /* margin-left: 550px;
+    margin-top: 20px;   */
+}
