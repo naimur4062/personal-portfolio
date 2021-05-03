@@ -1,4 +1,5 @@
 import React from 'react';
+import { Button } from 'react-bootstrap';
 import Typical from 'react-typical';
 import facebook from '../../images/facebook.png';
 import linkedin from '../../images/linkedin.png';
@@ -9,8 +10,8 @@ import './Header.css';
 const Header = () => {
     return (
         <div>
-            <div style={{paddingTop: '150px'}} className="abir d-flex justify-content-center">
-                <img src={abir} alt=""/>
+            <div style={{ paddingTop: '150px' }} className="abir d-flex justify-content-center">
+                <img src={abir} alt="" />
             </div>
             <div className="d-flex justify-content-center container mt-5">
                 <div style={{ marginBottom: '50px' }}>
@@ -26,6 +27,13 @@ const Header = () => {
                         loop={Infinity}
                         wrapper="h1"
                     />
+                    <div className="resume text-center">
+                        <a href="https://drive.google.com/uc?export=download&id=1vtk_YtomvnDs4qhp9apiRIpuE8J5CE3c">
+                            <Button>
+                                RESUME
+                            </Button>
+                        </a>
+                    </div>
                     <div className="icon text-center mt-5">
                         <a href="https://www.facebook.com/naimurrahman.abeer" target="_blank" rel="noreferrer">
                             <img src={facebook} alt="" />
