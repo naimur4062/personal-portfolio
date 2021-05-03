@@ -4,13 +4,13 @@ import { Link } from 'react-router-dom';
 
 const SideBar = () => {
     return (
-        <div style={{ backgroundColor: '#000080' }}>
+        <div style={{ backgroundColor: '#181a27', position: 'fixed', width: '100%' }}>
             <div className="d-flex justify-content-between">
                 <div>
                     <h1 className="text-white mx-5 my-4">Welcome</h1>
                 </div>
                 <div>
-                    <Navbar collapseOnSelect expand="lg">
+                    <Navbar collapseOnSelect variant="dark" expand="lg">
                         <div className="container my-4">
                             <Navbar.Toggle aria-controls="responsive-navbar-nav" />
                             <Navbar.Collapse id="responsive-navbar-nav">

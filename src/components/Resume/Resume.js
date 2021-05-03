@@ -9,7 +9,7 @@ const Resume = () => {
             <div className="text-center">
                 <SideBar />
             </div>
-            <div style={{ backgroundColor: '#191970' }}>
+            <div style={{ backgroundColor: '#00101a', paddingTop: '120px' }}>
                 <div className="resume text-center">
                     <a href="https://drive.google.com/uc?export=download&id=1vtk_YtomvnDs4qhp9apiRIpuE8J5CE3c">
                         <Button>

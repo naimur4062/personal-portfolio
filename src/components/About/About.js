@@ -8,7 +8,7 @@ const About = () => {
             <div className="text-center">
                 <SideBar />
             </div>
-            <div className="d-flex justify-content-center" style={{ backgroundColor: '#191970'}}>
+            <div className="d-flex justify-content-center" style={{ backgroundColor: '#00101a', paddingTop: '100px'}}>
                 <AboutDetail />
             </div>
         </div>

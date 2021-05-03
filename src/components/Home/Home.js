@@ -1,6 +1,7 @@
 import React from 'react';
 import Header from '../Header/Header';
 import SideBar from '../SideBar/SideBar';
+import About from '../About/About';
 
 const Home = () => {
     return (
@@ -8,7 +9,7 @@ const Home = () => {
             <div className="text-center">
                 <SideBar />
             </div>
-            <div style={{ backgroundColor: '#191970'}}>
+            <div style={{ backgroundColor: '#00101a'}}>
                 <Header />
             </div>
         </div>
