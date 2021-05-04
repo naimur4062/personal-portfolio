@@ -56,7 +56,7 @@ const Portfolios = () => {
             <div className="text-center">
                 <SideBar />
             </div>
-            <div className="d-flex justify-content-center" style={{ backgroundColor: '#00101a', paddingTop: '140px' }}>
+            <div className="d-flex justify-content-center" style={{ backgroundColor: '#00101a', paddingTop: '20px' }}>
                 <div className="row container">
                     {
                         portfolios.map(portfolio => <PortfolioDetail portfolio={portfolio} />)

@@ -10,7 +10,7 @@ import './Header.css';
 const Header = () => {
     return (
         <div>
-            <div style={{ paddingTop: '150px' }} className="abir d-flex justify-content-center">
+            <div className="abir d-flex justify-content-center pt-5">
                 <img src={abir} alt="" />
             </div>
             <div className="d-flex justify-content-center container mt-5">

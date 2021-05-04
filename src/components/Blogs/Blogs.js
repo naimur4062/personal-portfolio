@@ -7,7 +7,7 @@ const Blogs = () => {
             <div className="text-center">
                 <SideBar />
             </div>
-            <div style={{paddingTop: '150px'}}>
+            <div style={{paddingTop: '20px'}}>
                 <h1 className="mt-5">Blogs are coming soon.</h1>
             </div>
         </div>

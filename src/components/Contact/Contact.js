@@ -24,7 +24,7 @@ const Contact = () => {
             <div className="text-center">
                 <SideBar />
             </div>
-            <div style={{ backgroundColor: '#00101a', paddingTop: '130px' }} className="text-white">
+            <div style={{ backgroundColor: '#00101a', paddingTop: '30px', paddingBottom: '20px'}} className="text-white">
                 <div className="p-4">
                     <form onSubmit={sendEmail}>
                         <div className="col-8 form-group mx-auto">

@@ -4,7 +4,7 @@ import { Link } from 'react-router-dom';
 
 const SideBar = () => {
     return (
-        <div style={{ backgroundColor: '#181a27', position: 'fixed', width: '100%' }}>
+        <div style={{ backgroundColor: '#181a27'}}>
             <div className="d-flex justify-content-between">
                 <div>
                     <h1 className="text-white mx-5 my-4">Welcome</h1>
