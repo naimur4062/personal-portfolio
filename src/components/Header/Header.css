@@ -5,22 +5,57 @@
     padding: 10px;
 }
 .resume Button{
-    background-color: #FF6347;
-    border: #FF6347;
-    margin-top: 20px;
-    padding: 15px;
+    background-color: blueviolet;
+    border: blueviolet;
+    padding: 10px;
     font-size: 20px;
     font-weight: 700;
 }
 .resume Button:hover{
-    background-color: #FF6347;
+    background-color: blueviolet;
 }
 .resume Button:focus{
-    background-color: #FF6347;
+    background-color: blueviolet;
 }
 .abir img{
     height: 200px;
-    border-radius: 30px;
-    /* margin-left: 550px;
-    margin-top: 20px;   */
+    border: 5px solid blueviolet;
+    border-radius: 50px;
+}
+.text{
+    color: turquoise;
+    margin-top: 5px;
+}
+.hello, .textI{
+    color:slateblue;
+}
+.name{
+    font-size: 50px;
+    font-weight: 700;
+    color:turquoise;
+}
+.abir{
+    width: 300px;
+    height: 300px;
+    padding: 10px;
+    border: 7px solid #ffffff50;
+    float: left;
+    border-radius: 60% 40% 30% 70% / 60% 30% 70% 40%;
+    background-image: linear-gradient(45deg, #08aeea, #2af598 100%);
+    background:#08aeea50 url(../../images/abirs.png) no-repeat;
+    background-size: cover;
+    background-position: top -10px center;
+    background-blend-mode: multiply;
+    animation: morph 8s ease-in-out infinite 1s;
+}
+@keyframes morph {
+    0%{
+        border-radius: 60% 40% 30% 70% / 60% 30% 70% 40%;
+    }
+    50%{
+        border-radius: 30% 60% 70% 40% / 50% 60% 30% 60%;
+    }
+    100%{
+        border-radius: 60% 40% 30% 70% / 60% 30% 70% 40%;
+    }
 }

@@ -5,13 +5,13 @@ import { Link } from 'react-router-dom';
 const SideBar = () => {
     return (
         <div style={{ backgroundColor: '#181a27'}}>
-            <div className="d-flex justify-content-between">
+            <div style={{height: '80px'}} className="d-flex justify-content-between">
                 <div>
-                    <h1 className="text-white mx-5 my-4">Welcome</h1>
+                    <h1 className="text-white mx-5 my-2">Welcome</h1>
                 </div>
                 <div>
                     <Navbar collapseOnSelect variant="dark" expand="lg">
-                        <div className="container my-4">
+                        <div className="container my-2">
                             <Navbar.Toggle aria-controls="responsive-navbar-nav" />
                             <Navbar.Collapse id="responsive-navbar-nav">
                                 <Nav className="ms-auto">
