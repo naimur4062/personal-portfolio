@@ -27,9 +27,9 @@ const SideBar = () => {
                                     <Link className="nav-link text-white" to="/portfolios">
                                         PORTFOLIOS
                                     </Link>
-                                    <Link className="nav-link text-white" to="/blogs">
+                                    {/* <Link className="nav-link text-white" to="/blogs">
                                         BLOGS
-                                   </Link>
+                                   </Link> */}
                                     <Link className="nav-link text-white" to="/contact">
                                         CONTACT
                                    </Link>
