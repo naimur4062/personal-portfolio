@@ -1,9 +1,9 @@
 import React from 'react';
 import { Button } from 'react-bootstrap';
 import Typical from 'react-typical';
-import facebook from '../../images/facebook.png';
-import linkedin from '../../images/linkedin.png';
-import github from '../../images/github.png';
+// import facebook from '../../images/facebook.png';
+// import linkedin from '../../images/linkedin.png';
+// import github from '../../images/github.png';
 import abir from '../../images/abirs.png';
 import './Header.css';
 
