@@ -1,6 +1,5 @@
-import React, { useEffect } from 'react';
+import React from 'react';
 import AboutDetail from '../AboutDetail/AboutDetail';
-import SideBar from '../SideBar/SideBar';
 
 const About = () => {
     
