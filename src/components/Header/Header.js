@@ -4,7 +4,7 @@ import Typical from 'react-typical';
 // import facebook from '../../images/facebook.png';
 // import linkedin from '../../images/linkedin.png';
 // import github from '../../images/github.png';
-import abir from '../../images/abirs.png';
+// import abir from '../../images/abirs.png';
 import './Header.css';
 
 const Header = () => {
