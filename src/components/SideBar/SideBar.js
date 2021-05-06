@@ -19,14 +19,17 @@ const SideBar = () => {
                                     <Link className="nav-link text-white" to="/home">
                                         HOME
                                     </Link>
-                                    <NavHashLink
+                                    {/* <NavHashLink
                                         to="/#about"
                                         activeClassName="selected"
-                                        activeStyle={{ color: 'red' }}
-                                    >AboutT</NavHashLink>
-                                    <Link className="nav-link text-white" to="/about">
+                                        // activeStyle={{ color: 'red' }}
+                                    >AboutT</NavHashLink> */}
+                                    <NavHashLink 
+                                         to="/#about"
+                                         activeClassName="selected"
+                                        className="nav-link text-white">
                                         ABOUT
-                                    </Link>
+                                    </NavHashLink>
                                     <Link className="nav-link text-white" to="/resume">
                                         RESUME
                                     </Link>

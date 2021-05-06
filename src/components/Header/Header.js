@@ -1,19 +1,15 @@
 import React from 'react';
 import { Button } from 'react-bootstrap';
 import Typical from 'react-typical';
-// import facebook from '../../images/facebook.png';
-// import linkedin from '../../images/linkedin.png';
-// import github from '../../images/github.png';
-// import abir from '../../images/abirs.png';
 import './Header.css';
 
 const Header = () => {
     return (
-        <div>
-            <div className="d-flex justify-content-center">
+        <div className="row pt-5">
+            <div className="d-flex justify-content-center col-md-6">
                 <div className="abir mt-3"></div>
             </div>
-            <div className="d-flex justify-content-center container">
+            <div style={{marginTop: '160px'}} className="d-flex justify-content-start col-md-6">
                 <div style={{ marginBottom: '50px' }}>
                     <p className="hello">Hello, my name is</p>
                     <h1 className="name">Md Naimur Rahman</h1>
@@ -36,17 +32,6 @@ const Header = () => {
                             </Button>
                         </a>
                     </div>
-                    {/* <div className="icon text-center mt-5">
-                        <a href="https://www.facebook.com/naimurrahman.abeer" target="_blank" rel="noreferrer">
-                            <img src={facebook} alt="" />
-                        </a>
-                        <a href="https://www.linkedin.com/in/naimur99" target="_blank" rel="noreferrer">
-                            <img src={linkedin} alt="" />
-                        </a>
-                        <a href="https://github.com/naimur4062" target="_blank" rel="noreferrer">
-                            <img src={github} alt="" />
-                        </a>
-                    </div> */}
                 </div>
             </div>
         </div>

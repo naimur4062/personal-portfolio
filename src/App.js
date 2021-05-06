@@ -10,16 +10,17 @@ import About from './components/About/About';
 import Resume from './components/Resume/Resume';
 import Portfolios from './components/Portfolios/Portfolios';
 import Contact from './components/Contact/Contact';
+import HomePage from './Pages/HomePage/HomePage';
 
 function App() {
   return (
     <Router>
       <Switch>
         <Route exact path="/">
-            <Home/>
+            <HomePage/>
         </Route>
         <Route path="/home">
-            <Home/>
+            <HomePage/>
         </Route>
         <Route path="/about">
             <About/>

@@ -1,12 +1,17 @@
-import React from 'react';
+import React, { useEffect } from 'react';
 import Skills from '../Skills/Skills';
 import './AboutDetail.css';
+import Aos from 'aos';
+import 'aos/dist/aos.css';
 
 const AboutDetail = () => {
+    useEffect(() => {
+        Aos.init({duration: 2000})
+    }, [])
     return (
         <div className="d-flex justify-content-center">
             <div className="row container">
-                <div className="col-md-6">
+                <div data-aos="fade-right" className="col-md-6">
                     <h1 className="text-white mt-5">About me</h1>
                     <div>
                         <h2 className="text-white mt-4">I am <span style={{ color: '#FF6347', fontWeight: '500' }}>Md Naimur Rahman</span></h2>
@@ -41,7 +46,7 @@ const AboutDetail = () => {
                         </div>
                     </div>
                 </div>
-                <div className="skills col-md-6">
+                <div data-aos="fade-left" className="skills col-md-6">
                     <Skills />
                 </div>
             </div>
