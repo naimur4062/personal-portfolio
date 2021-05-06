@@ -1,11 +1,12 @@
 import React from 'react';
 import { Nav, Navbar } from 'react-bootstrap';
 import { Link } from 'react-router-dom';
+import { NavHashLink } from 'react-router-hash-link';
 
 const SideBar = () => {
     return (
-        <div style={{ backgroundColor: '#181a27'}}>
-            <div style={{height: '80px'}} className="d-flex justify-content-between">
+        <div style={{ backgroundColor: '#181a27' }}>
+            <div style={{ height: '80px' }} className="d-flex justify-content-between">
                 <div>
                     <h1 className="text-white mx-5 my-2">Welcome</h1>
                 </div>
@@ -18,6 +19,11 @@ const SideBar = () => {
                                     <Link className="nav-link text-white" to="/home">
                                         HOME
                                     </Link>
+                                    <NavHashLink
+                                        to="/#about"
+                                        activeClassName="selected"
+                                        activeStyle={{ color: 'red' }}
+                                    >AboutT</NavHashLink>
                                     <Link className="nav-link text-white" to="/about">
                                         ABOUT
                                     </Link>
