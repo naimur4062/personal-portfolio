@@ -1,53 +1,52 @@
 import React, { useEffect } from 'react';
-import Skills from '../Skills/Skills';
 import './AboutDetail.css';
 import Aos from 'aos';
 import 'aos/dist/aos.css';
 
 const AboutDetail = () => {
     useEffect(() => {
-        Aos.init({duration: 2000})
+        Aos.init({ duration: 2000 })
     }, [])
     return (
-        <div className="d-flex justify-content-center">
+        <div className="d-flex justify-content-center pb-5">
             <div className="row container">
+                <h1 style={{color: '#ccd6f6'}} data-aos="fade-down" className="mt-5">About me</h1>
+                <div className="title-divider">
+                    <span></span>
+                    <span></span>
+                </div>
                 <div data-aos="fade-right" className="col-md-6">
-                    <h1 className="text-white mt-5">About me</h1>
-                    <div>
-                        <h2 className="text-white mt-4">I am <span style={{ color: '#FF6347', fontWeight: '500' }}>Md Naimur Rahman</span></h2>
-                        <p className="text-white mt-4">I am a curious full stack web developer. I like to play with java script and node js. Every day I try to learn new technology to improve my skills. I try hard to make my client happy. But I also failed in sometimes. In my daily life, I drink coffee and tear off my hear to solve problems.</p>
+                    <div className="aboutMe">
+                        <h2>I am <span className="name">Md Naimur5 Rahman</span></h2>
+                        <p>Welcome, I am glad to know that you are landing on my website and searching for about me.</p>
+                        <p>I am a curious full-stack web developer. I like to play with javascript and node js. I have already finished more than 10 projects which you can see from my GitHub. My real strength is my ability to learn new technology with eagerness. I am always ready to learn or to do anything for my client's needs. Every day I try to learn new technology to improve my skills. I try hard to make my client happy. But I also failed sometimes. In my daily life, I drink coffee and tear off my hair to solve problems.</p>
                     </div>
-                    <div className="d-flex justify-content-start mt-4">
-                        <div className="identity d-flex justify-content-start">
-                            <div className="">
-                                <h4 className="text-white">Full Name</h4>
-                                <h4 className="text-white">Age</h4>
-                                <h4 className="text-white">Nationality</h4>
-                                <h4 className="text-white">Address</h4>
-                                <h4 className="text-white">Language</h4>
-                                <h4 className="text-white">Freelance</h4>
+                </div>
+                <div data-aos="zoom-in" className="col-md-6">
+                    <div className="contactCard">
+                        <div className="contactDetail row">
+                            <div className="col-md-6">
+                                <p style={{color: 'turquoise', fontSize: '25px'}}>Phone:</p>
+                                <p style={{color: 'gray'}}>01797-276647</p>
                             </div>
-                            <div className="ms-5">
-                                <h4 className="text-white">:</h4>
-                                <h4 className="text-white">:</h4>
-                                <h4 className="text-white">:</h4>
-                                <h4 className="text-white">:</h4>
-                                <h4 className="text-white">:</h4>
-                                <h4 className="text-white">:</h4>
+                            <div className="col-md-6">
+                                <p style={{color: 'turquoise', fontSize: '25px'}}>Email:</p>
+                                <p style={{color: 'gray'}}>naimur4062@gmail.com</p>
                             </div>
-                            <div className="ms-3">
-                                <h4 className="text-white">Md Naimur Rahman</h4>
-                                <h4 className="text-white">22</h4>
-                                <h4 className="text-white">Bangladeshi</h4>
-                                <h4 className="text-white">Chuadanga, Khulna</h4>
-                                <h4 className="text-white">Bangla, English</h4>
-                                <h4 className="text-white">Available</h4>
+                            <div className="col-md-6 social">
+                                <p style={{color: 'turquoise', fontSize: '25px'}}>LinkedIn:</p>
+                                <a href="https://www.linkedin.com/in/naimur99/" target="_blank" rel="noreferrer">
+                                    <p style={{color: 'gray'}}>Click to go LinkedIn</p>
+                                </a>
+                            </div>
+                            <div className="col-md-6 social">
+                                <p style={{color: 'turquoise', fontSize: '25px'}}>Github:</p>
+                                <a href="https://github.com/naimur4062" target="_blank" rel="noreferrer">
+                                    <p style={{color: 'gray'}}>Click to go Github</p>
+                                </a>
                             </div>
                         </div>
                     </div>
-                </div>
-                <div data-aos="fade-left" className="skills col-md-6">
-                    <Skills />
                 </div>
             </div>
         </div>

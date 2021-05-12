@@ -1,6 +1,0 @@
-@media only screen and (max-width: 600px) {
-    .resumeSkill{
-        display: flex;
-        flex-direction: column;
-    }
-}

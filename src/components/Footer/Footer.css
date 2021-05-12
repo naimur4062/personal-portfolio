@@ -1,3 +1,44 @@
+.connect h1, p,
+.email h5, h4{
+    color: #ccd6f6;
+}
+
+.connect h1{
+    font-size: 60px;
+    font-weight: 700;
+}
+
+.connect p{
+    font-size: 25px;
+}
+
+.connectDiv{
+    border-bottom: 1px solid #ccd6f6;
+}
+
+.email h5{
+    padding: 5px;
+    font-size: 25px;
+    font-weight: 600;
+}
+
+.sayHi a:hover{
+    text-decoration: none;
+}
+
+.sayHi a p{
+    border: 1px solid turquoise;
+    padding: 5px 15px;
+    border-radius: 5px;
+    margin-top: 10px;
+}
+
+.builder p{
+    color: turquoise;
+    font-size: 17px;
+    font-weight: 400;
+}
+
 .icon a img{
     width: 50px;
 }

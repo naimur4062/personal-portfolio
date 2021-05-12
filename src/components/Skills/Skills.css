@@ -1,11 +1,23 @@
-.expert, .familiar{
-    margin-top: 35px;
+.tools{
+    border: 1px solid turquoise;
+    background-color: #172a45;
+    margin-top: 20px;
 }
-.familiar-tool-deploy{
-    margin-left: 150px;
+
+.tools ul{
+    padding: 15px;
 }
-@media only screen and (max-width: 700px) {
-    .familiar-tool-deploy{
-        margin-left: 50px;
-    }
+
+.tools ul li{
+    color: turquoise;
+    font-size: 20px;
+    font-weight: 500;
+}
+
+.skillName h3{
+    color: turquoise;
+}
+
+.heading, .toolsDiv h3{
+    color: blueviolet;
 }

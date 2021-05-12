@@ -8,7 +8,7 @@ const Home = () => {
             <div style={{ backgroundColor: '#00101a'}}>
                 <Header />
             </div>
-            <div id="about">
+            <div>
                 <About/>
             </div>
         </div>

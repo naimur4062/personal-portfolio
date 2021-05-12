@@ -1,63 +1,54 @@
-import React from 'react';
+import React, { useEffect } from 'react';
+import { ProgressBar } from 'react-bootstrap';
 import './Skills.css';
+import Aos from 'aos';
+import 'aos/dist/aos.css';
+
+const frontEnd = [
+    { name: "HTML", parentage: 90, color: "primary" },
+    { name: "Bootstrap", parentage: 80, color: "info" },
+    { name: "CSS", parentage: 80, color: "success" },
+    { name: "JavaScript", parentage: 70, color: "warning" },
+    { name: "React", parentage: 75, color: "info" }
+]
+const backEnd = [
+    { name: "NodeJS", parentage: 50, color: "danger" },
+    { name: "MongoDB", parentage: 60, color: "warning" },
+    { name: "expressJS", parentage: 65, color: "primary" }
+]
 
 const Skills = () => {
+    useEffect(() => {
+        Aos.init({ duration: 2000 })
+    }, []);
     return (
-        <div className="container">
-            <h1 className="text-white mt-5">My Skills</h1>
-            <div className="d-flex justify-content-start">
-                <div>
-                    <div className="expert text-white">
-                        <h5>Expert with</h5>
-                        <ul>
-                            <li>HTML</li>
-                            <li>CSS</li>
-                            <li>Bootstrap</li>
-                            <li>JavaScript</li>
-                            <li>React</li>
-                            <li>ES6</li>
-                            <li>Firebase</li>
-                        </ul>
-                    </div>
-                    <div className="comfortable text-white mt-4">
-                        <h5>Comfortable with</h5>
-                        <ul>
-                            <li>React Bootstrap</li>
-                            <li>Material Ui</li>
-                            <li>Node js</li>
-                            <li>Redux</li>
-                            <li>Mongodb</li>
-                            <li>TypeScript</li>
-                        </ul>
-                    </div>
+        <div id="skill" className="container">
+            <h1 data-aos="fade-down" style={{color: '#ccd6f6'}} className="text-center pt-5">My Expertise</h1>
+            <div className="row skillName">
+                <div className="col-md-6">
+                    <h1  data-aos="zoom-in" className="heading text-center pt-5">Front-End</h1>
+                    {frontEnd.map(skill => (
+                        <div data-aos="fade-right">
+                            <h3 className="mt-3">{skill.name}</h3>
+                            <ProgressBar striped variant={`${skill.color}`} now={skill.parentage} label={`${skill.parentage}%`} />
+                        </div>))}
                 </div>
-                <div className="familiar-tool-deploy">
-                    <div className="familiar text-white">
-                        <h5>Familiar with</h5>
-                        <ul>
-                            <li>OOP</li>
-                            <li>Next js</li>
-                            <li>SASS</li>
-                            <li>jQuery</li>
-                            <li>Data Structure</li>
-                            <li>Algorithm</li>
-                        </ul>
-                    </div>
-                    <div className="tools text-white">
-                        <h5>Tools</h5>
-                        <ul>
-                            <li>Git</li>
-                            <li>Vs Code</li>
-                            <li>Chrome Dev tool</li>
-                        </ul>
-                    </div>
-                    <div className="deploy text-white">
-                        <h5>Deploy</h5>
-                        <ul>
-                            <li>Firebase</li>
-                            <li>Netlify</li>
-                            <li>Heroku</li>
-                        </ul>
+                <div className="col-md-6">
+                    <h1  data-aos="zoom-in" className="heading text-center pt-5">Back-End</h1>
+                    {backEnd.map(skill => (
+                        <div data-aos="fade-left">
+                            <h3 className="mt-3">{skill.name}</h3>
+                            <ProgressBar striped variant={`${skill.color}`} now={skill.parentage} label={`${skill.parentage}%`} />
+                        </div>))}
+                    <div className="toolsDiv">
+                        <h3  data-aos="zoom-in" className="text-center pt-3">Tools</h3>
+                        <div data-aos="fade-up-left" className="tools">
+                            <ul className="d-flex justify-content-evenly">
+                                <li>Git</li>
+                                <li>VS Code</li>
+                                <li>Chrome Dev Tool</li>
+                            </ul>
+                        </div>
                     </div>
                 </div>
             </div>

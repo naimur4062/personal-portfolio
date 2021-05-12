@@ -1,15 +1,27 @@
-.resume Button{
+.resume .download{
     background-color: blueviolet;
     border: blueviolet;
     padding: 10px;
-    font-size: 20px;
-    font-weight: 700;
+    font-size: 17px;
+    font-weight: 500;
+}
+.resume .hire{
+    background-color: #181a27;
+    border: 2px solid blueviolet;
+    border-radius: 5px;
+    color: blueviolet;
+    padding: 10px;
+    font-size: 15px;
+    font-weight: 500;
 }
 .resume Button:hover{
     background-color: blueviolet;
 }
 .resume Button:focus{
     background-color: blueviolet;
+}
+.resume a{
+    padding: 5px;
 }
 .abir img{
     height: 200px;

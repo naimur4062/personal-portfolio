@@ -1,7 +1,10 @@
 import React from 'react';
 import { Button } from 'react-bootstrap';
+import { Link } from 'react-router-dom';
 import Typical from 'react-typical';
 import './Header.css';
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
+import { faFileDownload } from '@fortawesome/free-solid-svg-icons'
 
 const Header = () => {
     return (
@@ -25,9 +28,15 @@ const Header = () => {
                             className="text"
                         />
                     </h5>
-                    <div className="resume text-center">
+                    <div className="resume text-center py-3">
+                        <Link to="/contact">
+                            <Button className="hire">
+                                HIRE ME
+                            </Button>
+                        </Link>
                         <a href="https://drive.google.com/uc?export=download&id=1vtk_YtomvnDs4qhp9apiRIpuE8J5CE3c">
-                            <Button>
+                            <Button className="download">
+                            <FontAwesomeIcon icon={faFileDownload} className="me-2"/>
                                 RESUME
                             </Button>
                         </a>
