@@ -40,7 +40,7 @@ const Footer = () => {
                     <img src={twitter} alt="" />
                 </a>
             </div>
-            <div className="builder text-center pt-5">
+            <div className="builder text-center pt-5 pb-1">
                 <p>Designed and Built by Naimur Rahman</p>
             </div>
         </section>

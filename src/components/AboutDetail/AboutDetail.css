@@ -75,3 +75,9 @@
 .social a:hover{
     text-decoration: none;
 }
+
+@media only screen and (max-width: 768px) {
+    .contactCard{
+        margin-top: 50px;
+    }
+}

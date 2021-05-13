@@ -17,7 +17,7 @@ const Header = () => {
             <div data-aos="fade-right" className="d-flex justify-content-center col-md-6">
                 <div className="abir mt-3"></div>
             </div>
-            <div data-aos="fade-left" style={{marginTop: '160px'}} className="d-flex justify-content-start col-md-6">
+            <div data-aos="fade-left" className="d-flex justify-content-center col-md-6 typical">
                 <div style={{ marginBottom: '50px' }}>
                     <p className="hello">Hello, my name is</p>
                     <h1 className="name">Md Naimur Rahman</h1>

@@ -25,11 +25,10 @@
     .margin {
         margin-left: 30px;
     }
-}
+} */
 
 @media screen and (max-width: 768px) and (min-width: 480px) {
-    .card-container {
-        display: block !important;
-        margin-left: 25%;
+    .cardDiv .card {
+      padding: 50px;
     }
-} */
+}
