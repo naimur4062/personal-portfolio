@@ -6,9 +6,11 @@ import SideBar from '../../components/SideBar/SideBar';
 const HomePage = () => {
     return (
         <div>
-            <SideBar/>
-            <Home/> 
-            <Footer/>
+            <SideBar />
+            <div style={{ backgroundColor: '#00101a' }}>
+                <Home />
+                <Footer />
+            </div>
         </div>
     );
 };

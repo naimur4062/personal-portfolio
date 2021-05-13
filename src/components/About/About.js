@@ -6,10 +6,10 @@ const About = () => {
     
     return (
         <div>
-            <div className="d-flex justify-content-center pt-3" style={{ backgroundColor: '#00101a'}}>
+            <div className="d-flex justify-content-center pt-3">
                 <AboutDetail />
             </div>
-            <div style={{ backgroundColor: '#00101a', paddingBottom: '100px'}}>
+            <div style={{ paddingBottom: '100px'}}>
                 <Skills/>
             </div>
         </div>

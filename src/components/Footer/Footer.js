@@ -12,7 +12,7 @@ const Footer = () => {
         Aos.init({ duration: 3000 });
     }, [])
     return (
-        <section style={{ backgroundColor: '#00101a' }}>
+        <section>
             <div data-aos="fade-up" className="container connectDiv">
                 <div className="connect text-center mb-4">
                     <h1>Stay Connected</h1>

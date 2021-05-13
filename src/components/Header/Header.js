@@ -1,18 +1,23 @@
-import React from 'react';
+import React, { useEffect } from 'react';
 import { Button } from 'react-bootstrap';
 import { Link } from 'react-router-dom';
 import Typical from 'react-typical';
 import './Header.css';
-import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
-import { faFileDownload } from '@fortawesome/free-solid-svg-icons'
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+import { faFileDownload } from '@fortawesome/free-solid-svg-icons';
+import AOS from "aos";
+import "aos/dist/aos.css";
 
 const Header = () => {
+    useEffect(() => {
+        AOS.init({ duration: 2000 });
+    }, []);
     return (
         <div className="row pt-5">
-            <div className="d-flex justify-content-center col-md-6">
+            <div data-aos="fade-right" className="d-flex justify-content-center col-md-6">
                 <div className="abir mt-3"></div>
             </div>
-            <div style={{marginTop: '160px'}} className="d-flex justify-content-start col-md-6">
+            <div data-aos="fade-left" style={{marginTop: '160px'}} className="d-flex justify-content-start col-md-6">
                 <div style={{ marginBottom: '50px' }}>
                     <p className="hello">Hello, my name is</p>
                     <h1 className="name">Md Naimur Rahman</h1>

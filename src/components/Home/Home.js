@@ -5,10 +5,10 @@ import Header from '../Header/Header';
 const Home = () => {
     return (
         <div>
-            <div style={{ backgroundColor: '#00101a'}}>
+            <div>
                 <Header />
             </div>
-            <div>
+            <div id="about"> 
                 <About/>
             </div>
         </div>

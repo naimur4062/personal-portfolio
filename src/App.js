@@ -4,11 +4,11 @@ import {
   Switch,
   Route
 } from "react-router-dom";
-import Blogs from './components/Blogs/Blogs';
 import About from './components/About/About';
-import Portfolios from './components/Portfolios/Portfolios';
-import Contact from './components/Contact/Contact';
 import HomePage from './Pages/HomePage/HomePage';
+import ContactPage from './Pages/ContactPage/ContactPage';
+import ProjectsPage from './Pages/ProjectsPage/ProjectsPage';
+import BlogsPage from './Pages/BlogsPage/BlogsPage';
 
 function App() {
   return (
@@ -23,14 +23,14 @@ function App() {
         <Route path="/about">
             <About/>
         </Route>
-        <Route path="/portfolios">
-            <Portfolios/>
+        <Route path="/projects">
+            <ProjectsPage/>
         </Route>
         <Route path="/blogs">
-            <Blogs/>
+            <BlogsPage/>
         </Route>
         <Route path="/contact">
-            <Contact/>
+            <ContactPage/>
         </Route>
       </Switch>
     </Router>

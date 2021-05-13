@@ -21,18 +21,24 @@ const SideBar = () => {
                                         HOME
                                     </Link>
                                     <NavHashLink 
+                                         to="/#about"
+                                         activeClassName="selected"
+                                        className="nav-link text-white">
+                                        ABOUT
+                                    </NavHashLink>
+                                    <NavHashLink 
                                          to="/#skill"
                                          activeClassName="selected"
                                         className="nav-link text-white">
                                         Skill
                                     </NavHashLink>
                                     <a href="https://drive.google.com/file/d/1vtk_YtomvnDs4qhp9apiRIpuE8J5CE3c/view?usp=sharing" className="nav-link text-white" target="_blank" rel="noreferrer">RESUME</a>
-                                    <Link className="nav-link text-white" to="/portfolios">
-                                        PORTFOLIOS
+                                    <Link className="nav-link text-white" to="/projects">
+                                        PROJECTS
                                     </Link>
-                                    {/* <Link className="nav-link text-white" to="/blogs">
+                                    <Link className="nav-link text-white" to="/blogs">
                                         BLOGS
-                                   </Link> */}
+                                   </Link>
                                     <Link className="nav-link text-white" to="/contact">
                                         CONTACT
                                    </Link>

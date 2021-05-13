@@ -17,7 +17,7 @@ const AboutDetail = () => {
                 </div>
                 <div data-aos="fade-right" className="col-md-6">
                     <div className="aboutMe">
-                        <h2>I am <span className="name">Md Naimur5 Rahman</span></h2>
+                        <h2>I am <span className="name">Md Naimur Rahman</span></h2>
                         <p>Welcome, I am glad to know that you are landing on my website and searching for about me.</p>
                         <p>I am a curious full-stack web developer. I like to play with javascript and node js. I have already finished more than 10 projects which you can see from my GitHub. My real strength is my ability to learn new technology with eagerness. I am always ready to learn or to do anything for my client's needs. Every day I try to learn new technology to improve my skills. I try hard to make my client happy. But I also failed sometimes. In my daily life, I drink coffee and tear off my hair to solve problems.</p>
                     </div>
