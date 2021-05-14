@@ -9,7 +9,7 @@ const Blog = ({ blog }) => {
     }, []);
     const { name, description, img, link } = blog;
     return (
-        <div className="col-md-4 text-center mb-5 cardDiv">
+        <div className="col-md-4 text-center d-flex justify-content-center align-items-center mb-5 cardDiv">
             <div data-aos="flip-left" className="card" style={{ width: '18rem' }}>
                 <img src={img} alt="..." />
                 <div className="card-body">

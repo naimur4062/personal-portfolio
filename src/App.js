@@ -9,28 +9,30 @@ import HomePage from './Pages/HomePage/HomePage';
 import ContactPage from './Pages/ContactPage/ContactPage';
 import ProjectsPage from './Pages/ProjectsPage/ProjectsPage';
 import BlogsPage from './Pages/BlogsPage/BlogsPage';
+import NavBar from './components/NavBar/NavBar';
 
 function App() {
   return (
     <Router>
+      <NavBar />
       <Switch>
         <Route exact path="/">
-            <HomePage/>
+          <HomePage />
         </Route>
         <Route path="/home">
-            <HomePage/>
+          <HomePage />
         </Route>
         <Route path="/about">
-            <About/>
+          <About />
         </Route>
         <Route path="/projects">
-            <ProjectsPage/>
+          <ProjectsPage />
         </Route>
         <Route path="/blogs">
-            <BlogsPage/>
+          <BlogsPage />
         </Route>
         <Route path="/contact">
-            <ContactPage/>
+          <ContactPage />
         </Route>
       </Switch>
     </Router>

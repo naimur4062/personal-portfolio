@@ -72,6 +72,10 @@
     border: 1px solid turquoise;
     margin-top: 120px;
 }
+.contactDetail .cardTitle{
+    color: turquoise;
+    font-size: 25px;
+}
 .social a:hover{
     text-decoration: none;
 }

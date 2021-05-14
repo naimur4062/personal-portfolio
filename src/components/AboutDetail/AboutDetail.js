@@ -27,21 +27,21 @@ const AboutDetail = () => {
                         <div className="contactCard">
                             <div className="contactDetail row">
                                 <div className="col-md-6">
-                                    <p style={{ color: 'turquoise', fontSize: '25px' }}>Phone:</p>
+                                    <p className="cardTitle">Phone:</p>
                                     <p style={{ color: 'gray' }}>01797-276647</p>
                                 </div>
                                 <div className="col-md-6">
-                                    <p style={{ color: 'turquoise', fontSize: '25px' }}>Email:</p>
+                                    <p className="cardTitle">Email:</p>
                                     <p style={{ color: 'gray' }}>naimur4062@gmail.com</p>
                                 </div>
                                 <div className="col-md-6 social">
-                                    <p style={{ color: 'turquoise', fontSize: '25px' }}>LinkedIn:</p>
+                                    <p className="cardTitle">LinkedIn:</p>
                                     <a href="https://www.linkedin.com/in/naimur99/" target="_blank" rel="noreferrer">
                                         <p style={{ color: 'gray' }}>Click to go LinkedIn</p>
                                     </a>
                                 </div>
                                 <div className="col-md-6 social">
-                                    <p style={{ color: 'turquoise', fontSize: '25px' }}>Github:</p>
+                                    <p className="cardTitle">Github:</p>
                                     <a href="https://github.com/naimur4062" target="_blank" rel="noreferrer">
                                         <p style={{ color: 'gray' }}>Click to go Github</p>
                                     </a>

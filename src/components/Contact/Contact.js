@@ -1,5 +1,4 @@
 import React, { useEffect } from 'react';
-import SideBar from '../SideBar/SideBar';
 import emailjs from 'emailjs-com';
 import './Contact.css';
 import AOS from "aos";
@@ -25,12 +24,9 @@ const Contact = () => {
 
     return (
         <div>
-            <div className="text-center">
-                <SideBar />
-            </div>
             <div className="text-white contactDiv">
                 <div className="container contactArea">
-                    <h1 data-aos="fade-down" style={{color: '#ccd6f6'}} className="text-center my-3">Get In Touch</h1>
+                    <h1 data-aos="fade-down" style={{ color: '#ccd6f6' }} className="text-center my-3">Get In Touch</h1>
                     <div data-aos="fade-up" className="p-4">
                         <form onSubmit={sendEmail}>
                             <div className="col-md-8 form-group mx-auto">

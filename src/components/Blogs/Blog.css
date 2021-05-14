@@ -27,8 +27,8 @@
     }
 } */
 
-@media screen and (max-width: 768px) and (min-width: 480px) {
-    .cardDiv .card {
-      padding: 50px;
+@media screen and (max-width: 992px) and (min-width: 480px) {
+    .cardDiv .card{
+      width: 15rem;
     }
 }
