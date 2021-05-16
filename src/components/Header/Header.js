@@ -1,5 +1,4 @@
-import React, { useEffect } from 'react';
-import { Button } from 'react-bootstrap';
+import React from 'react';
 import { Link } from 'react-router-dom';
 import Typical from 'react-typical';
 import './Header.css';
