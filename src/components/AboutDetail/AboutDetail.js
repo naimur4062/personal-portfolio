@@ -5,7 +5,7 @@ import 'aos/dist/aos.css';
 
 const AboutDetail = () => {
     useEffect(() => {
-        Aos.init({ duration: 2000 })
+        Aos.init({ duration: 1200 })
     }, [])
     return (
         <div className="d-flex justify-content-center pb-5">

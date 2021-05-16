@@ -4,6 +4,7 @@
     padding: 10px;
     font-size: 17px;
     font-weight: 500;
+    color: white;
 }
 .resume .hire{
     background-color: #181a27;
@@ -14,10 +15,12 @@
     font-size: 15px;
     font-weight: 500;
 }
-.resume Button:hover{
-    background-color: blueviolet;
+.resume .hire:hover{
+    background-color: #181a27;
+    color: blueviolet;
+    border: 2px solid blueviolet;
 }
-.resume Button:focus{
+.resume .download:hover{
     background-color: blueviolet;
 }
 .resume a{

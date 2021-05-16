@@ -1,5 +1,7 @@
 import React from 'react';
 import { Nav, Navbar } from 'react-bootstrap';
+import { Link } from 'react-router-dom';
+import { NavHashLink } from 'react-router-hash-link';
 import './NavBar.css';
 
 const NavBar = () => {
@@ -12,13 +14,27 @@ const NavBar = () => {
                 <Navbar.Toggle id="toggle"/>
                 <Navbar.Collapse className="text-center">
                     <Nav className="ms-auto">
-                        <Nav.Link href="/"><span className="navLink">HOME</span></Nav.Link>
-                        <Nav.Link href="/#about"><span className="navLink">ABOUT</span></Nav.Link>
-                        <Nav.Link href="/#skill"><span className="navLink">SKILLS</span></Nav.Link>
-                        <Nav.Link href="https://drive.google.com/file/d/1vtk_YtomvnDs4qhp9apiRIpuE8J5CE3c/view?usp=sharing" target="_blank" rel="noreferrer"><span className="navLink">RESUME</span></Nav.Link>
-                        <Nav.Link href="/projects"><span className="navLink">PROJECTS</span></Nav.Link>
-                        <Nav.Link href="/blogs"><span className="navLink">BLOGS</span></Nav.Link>
-                        <Nav.Link href="/contact"><span className="navLink">CONTACT</span></Nav.Link>
+                        <Nav.Link>
+                            <Link to="/"><span className="navLink">HOME</span></Link>
+                        </Nav.Link>
+                        <Nav.Link>
+                            <NavHashLink to="/#about"><span className="navLink">ABOUT</span></NavHashLink>
+                        </Nav.Link>
+                        <Nav.Link>
+                            <NavHashLink to="/#skill"><span className="navLink">SKILLS</span></NavHashLink>
+                        </Nav.Link>
+                        <Nav.Link href="https://drive.google.com/file/d/1vtk_YtomvnDs4qhp9apiRIpuE8J5CE3c/view?usp=sharing" target="_blank" rel="noreferrer">
+                            <Link><span className="navLink">RESUME</span></Link>
+                        </Nav.Link>
+                        <Nav.Link>
+                            <Link to="/projects"><span className="navLink">PROJECTS</span></Link>
+                        </Nav.Link>
+                        <Nav.Link>
+                            <Link to="/blogs"><span className="navLink">BLOGS</span></Link>
+                        </Nav.Link>
+                        <Nav.Link>
+                            <Link to="/contact"><span className="navLink">CONTACT</span></Link>
+                        </Nav.Link>
                     </Nav>
                 </Navbar.Collapse>
             </Navbar>

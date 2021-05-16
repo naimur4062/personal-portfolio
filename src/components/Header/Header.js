@@ -5,19 +5,14 @@ import Typical from 'react-typical';
 import './Header.css';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faFileDownload } from '@fortawesome/free-solid-svg-icons';
-import AOS from "aos";
-import "aos/dist/aos.css";
 
 const Header = () => {
-    useEffect(() => {
-        AOS.init({ duration: 2000 });
-    }, []);
     return (
         <div className="row pt-5">
-            <div data-aos="fade-right" className="d-flex justify-content-center col-md-6">
+            <div className="d-flex justify-content-center col-md-6">
                 <div className="abir mt-3"></div>
             </div>
-            <div data-aos="fade-left" className="d-flex justify-content-center col-md-6 typical">
+            <div className="d-flex justify-content-center col-md-6 typical">
                 <div style={{ marginBottom: '50px' }}>
                     <p className="hello">Hello, my name is</p>
                     <h1 className="name">Md Naimur Rahman</h1>
@@ -35,15 +30,15 @@ const Header = () => {
                     </h5>
                     <div className="resume text-center py-3">
                         <Link to="/contact">
-                            <Button className="hire">
+                            <button className="hire">
                                 HIRE ME
-                            </Button>
+                            </button>
                         </Link>
                         <a href="https://drive.google.com/uc?export=download&id=1vtk_YtomvnDs4qhp9apiRIpuE8J5CE3c">
-                            <Button className="download">
+                            <button className="download">
                             <FontAwesomeIcon icon={faFileDownload} className="me-2"/>
                                 RESUME
-                            </Button>
+                            </button>
                         </a>
                     </div>
                 </div>
