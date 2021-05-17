@@ -24,7 +24,7 @@ const NavBar = () => {
                             <NavHashLink to="/#skill"><span className="navLink">SKILLS</span></NavHashLink>
                         </Nav.Link>
                         <Nav.Link href="https://drive.google.com/file/d/1vtk_YtomvnDs4qhp9apiRIpuE8J5CE3c/view?usp=sharing" target="_blank" rel="noreferrer">
-                            <Link><span className="navLink">RESUME</span></Link>
+                           <span className="navLink">RESUME</span>
                         </Nav.Link>
                         <Nav.Link>
                             <Link to="/projects"><span className="navLink">PROJECTS</span></Link>
