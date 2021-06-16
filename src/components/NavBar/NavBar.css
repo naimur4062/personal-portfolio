@@ -1,9 +1,13 @@
-.navLink{
-    color: #ced4da;
-    font-weight: 700;
+.navLink {
+  color: #ced4da;
+  font-weight: 700;
 }
 
-#toggle{
-    background-color: blueviolet;
-    border: 2px solid turquoise;
+Nav a:hover {
+  text-decoration: none;
+}
+
+#toggle {
+  background-color: blueviolet;
+  border: 2px solid turquoise;
 }
