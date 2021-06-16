@@ -1,6 +1,7 @@
 import React from 'react';
 import Project from './Project';
 import wisdomCoaching from '../../images/wisdom.PNG';
+import jobHunting from '../../images/job-huntig.PNG'
 import carHouse from '../../images/carHouse.PNG';
 import footballLeague from '../../images/laliga.PNG';
 import bdTeam from '../../images/bdteam.PNG';
@@ -25,7 +26,7 @@ const Projects = () => {
             title: "Job Hunting",
             description: "It is a website where you can find your dream job. Specially, for the web developer. Here employee can apply for jobs and can see all their applied list. An employer can add a new job When a vacancy arrives. The employer can see all the applicants who are applied for the specific job.",
             technology: "HTML5, CSS3, Bootstrap, React-Bootstrap, Material UI, Firebase, Heroku, NodeJS, Express JS, MongoDB",
-            image: carHouse,
+            image: jobHunting,
             liveSite: "https://job-hunting99.web.app/",
             client: "https://github.com/naimur4062/Job-hunting-client",
             server: "https://github.com/naimur4062/Job-hunting-server",
